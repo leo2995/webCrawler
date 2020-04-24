@@ -1,0 +1,21 @@
+{
+  "name": "webcrawler-javascript",
+  "version": "0.0.0",
+  "description": "A webcrawler written in JavaScript with node.js",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "request": "^2.65.0",
+    "url-parse": "^1.0.5"
+  }
+}
